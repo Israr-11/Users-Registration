@@ -29,6 +29,8 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
+//Swagger's documentation declaration
+
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
