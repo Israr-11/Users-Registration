@@ -15,7 +15,7 @@ namespace UserAPI.Controllers
             _context = context;
         }
 
-        // Get all users
+        // Get all users regardless of any condition
         [HttpGet]
         public async Task<ActionResult<IEnumerable<UserModel>>> GetusersModel()
         {
@@ -38,7 +38,7 @@ namespace UserAPI.Controllers
             }
         }
 
-        // Get one user by ID
+        // Get one user by ID when the ID is matched
         [HttpGet("{id}")]
         public async Task<ActionResult<UserModel>> GetusersModel(int id)
         {
