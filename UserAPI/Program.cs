@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Hosting.Server;
 using Microsoft.EntityFrameworkCore;
 using UserAPI.Models;
 
-//Creating the builder for the web application
+//Creating the builder for the web applications
 var builder = WebApplication.CreateBuilder(args);
 
 // Fetch connection string from appsettings.json
