@@ -7,7 +7,7 @@ namespace UserAPI.Models
         public UserModelContext(DbContextOptions<UserModelContext> options) : base(options) { }
 
         public DbSet<UserModel> UserTable1 { get; set; }
-        //usersModel is the name of the model in VS
+        //usersModel is just the name of the model in VS
         //UserTable1 is the table created in VS
     }
 }
